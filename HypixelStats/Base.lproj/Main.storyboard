@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13526" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J9L-3e-8sx">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13524"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings-->
+        <scene sceneID="ezW-yh-qSK">
+            <objects>
+                <viewController id="TXx-ed-hIO" customClass="SettingsViewController" customModule="HypixelStats" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zsL-jc-MTQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Co-Sb-dZA">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Settings" id="aUg-Ge-XVr">
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="VVA-x3-xma">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="L0E-UN-r1W">
+                                                <rect key="frame" x="360" y="7" width="34" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Save"/>
+                                                <connections>
+                                                    <action selector="saveButton:" destination="TXx-ed-hIO" eventType="touchUpInside" id="l1Q-ve-X6A"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="IPI-WD-Zmf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" id="COd-FT-gEc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fh2-xn-XMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-530.43478260869574" y="19.565217391304348"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="TFy-NG-TUq">
+            <objects>
+                <viewController id="z9R-jg-EcF" customClass="HomeViewController" customModule="HypixelStats" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xni-sN-Yqm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7o-rE-XpH">
+                                <rect key="frame" x="172" y="412" width="71" height="30"/>
+                                <state key="normal" title="Close App"/>
+                                <connections>
+                                    <action selector="onCloseAppButton:" destination="z9R-jg-EcF" eventType="touchUpInside" id="93o-kY-vHD"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PxE-rz-7lI">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Hypixel Stats" id="4Y0-4g-x9G"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKL-i9-DgD">
+                                <rect key="frame" x="93" y="217" width="229" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">So uh, I didn't really expect you to open this... this doesn't actually do anything. I just exist so the Apple Watch app can work.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i7o-rE-XpH" firstAttribute="centerY" secondItem="Xni-sN-Yqm" secondAttribute="centerY" constant="59" id="YVr-oZ-IbK"/>
+                            <constraint firstItem="i7o-rE-XpH" firstAttribute="centerX" secondItem="Xni-sN-Yqm" secondAttribute="centerX" id="Zas-Jp-ZI9"/>
+                            <constraint firstItem="i7o-rE-XpH" firstAttribute="centerX" secondItem="Xni-sN-Yqm" secondAttribute="centerX" id="ZvU-w4-ocF"/>
+                            <constraint firstItem="i7o-rE-XpH" firstAttribute="centerY" secondItem="Xni-sN-Yqm" secondAttribute="centerY" constant="59" id="toX-6F-WqR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Gbm-ZO-teq"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="UCE-AI-Go8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nal-gV-Zar" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-530.43478260869574" y="-631.79347826086962"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="z70-Al-Vtn">
+            <objects>
+                <tabBarController id="J9L-3e-8sx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="T4f-4M-iwA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="z9R-jg-EcF" kind="relationship" relationship="viewControllers" id="6x3-Zh-VNy"/>
+                        <segue destination="TXx-ed-hIO" kind="relationship" relationship="viewControllers" id="NLb-7D-1hd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3BU-qb-6wo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1528" y="-378"/>
+        </scene>
+    </scenes>
+</document>

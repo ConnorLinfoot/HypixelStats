@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9271EE331F7EC676006E38FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE321F7EC676006E38FB /* AppDelegate.swift */; };
+		9271EE351F7EC676006E38FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE341F7EC676006E38FB /* ViewController.swift */; };
+		9271EE381F7EC676006E38FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9271EE361F7EC676006E38FB /* Main.storyboard */; };
+		9271EE3A1F7EC676006E38FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9271EE391F7EC676006E38FB /* Assets.xcassets */; };
+		9271EE3D1F7EC676006E38FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9271EE3B1F7EC676006E38FB /* LaunchScreen.storyboard */; };
+		9271EE481F7EC676006E38FB /* HypixelStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE471F7EC676006E38FB /* HypixelStatsTests.swift */; };
+		9271EE531F7EC676006E38FB /* HypixelStatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE521F7EC676006E38FB /* HypixelStatsUITests.swift */; };
+		9271EE581F7EC676006E38FB /* HypixelStats WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9271EE571F7EC676006E38FB /* HypixelStats WatchKit App.app */; };
+		9271EE5E1F7EC676006E38FB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9271EE5C1F7EC676006E38FB /* Interface.storyboard */; };
+		9271EE601F7EC676006E38FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9271EE5F1F7EC676006E38FB /* Assets.xcassets */; };
+		9271EE671F7EC676006E38FB /* HypixelStats WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9271EE661F7EC676006E38FB /* HypixelStats WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9271EE6C1F7EC676006E38FB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE6B1F7EC676006E38FB /* InterfaceController.swift */; };
+		9271EE6E1F7EC676006E38FB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE6D1F7EC676006E38FB /* ExtensionDelegate.swift */; };
+		9271EE701F7EC676006E38FB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE6F1F7EC676006E38FB /* NotificationController.swift */; };
+		9271EE721F7EC676006E38FB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271EE711F7EC676006E38FB /* ComplicationController.swift */; };
+		9271EE741F7EC676006E38FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9271EE731F7EC676006E38FB /* Assets.xcassets */; };
+		92A7FC241F7F9640007D65C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7FC231F7F9640007D65C9 /* HomeViewController.swift */; };
+		92A7FC261F7F9787007D65C9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A7FC251F7F9787007D65C9 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9271EE441F7EC676006E38FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9271EE271F7EC676006E38FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9271EE2E1F7EC676006E38FB;
+			remoteInfo = HypixelStats;
+		};
+		9271EE4F1F7EC676006E38FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9271EE271F7EC676006E38FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9271EE2E1F7EC676006E38FB;
+			remoteInfo = HypixelStats;
+		};
+		9271EE591F7EC676006E38FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9271EE271F7EC676006E38FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9271EE561F7EC676006E38FB;
+			remoteInfo = "HypixelStats WatchKit App";
+		};
+		9271EE681F7EC676006E38FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9271EE271F7EC676006E38FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9271EE651F7EC676006E38FB;
+			remoteInfo = "HypixelStats WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9271EE7C1F7EC676006E38FB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9271EE671F7EC676006E38FB /* HypixelStats WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE801F7EC676006E38FB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9271EE581F7EC676006E38FB /* HypixelStats WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9271EE2F1F7EC676006E38FB /* HypixelStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypixelStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9271EE321F7EC676006E38FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9271EE341F7EC676006E38FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9271EE371F7EC676006E38FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9271EE391F7EC676006E38FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9271EE3C1F7EC676006E38FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9271EE3E1F7EC676006E38FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9271EE431F7EC676006E38FB /* HypixelStatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypixelStatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9271EE471F7EC676006E38FB /* HypixelStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypixelStatsTests.swift; sourceTree = "<group>"; };
+		9271EE491F7EC676006E38FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9271EE4E1F7EC676006E38FB /* HypixelStatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypixelStatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9271EE521F7EC676006E38FB /* HypixelStatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypixelStatsUITests.swift; sourceTree = "<group>"; };
+		9271EE541F7EC676006E38FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9271EE571F7EC676006E38FB /* HypixelStats WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HypixelStats WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9271EE5D1F7EC676006E38FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		9271EE5F1F7EC676006E38FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9271EE611F7EC676006E38FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9271EE661F7EC676006E38FB /* HypixelStats WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HypixelStats WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9271EE6B1F7EC676006E38FB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		9271EE6D1F7EC676006E38FB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		9271EE6F1F7EC676006E38FB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		9271EE711F7EC676006E38FB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		9271EE731F7EC676006E38FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9271EE751F7EC676006E38FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9271EE761F7EC676006E38FB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		92A7FC231F7F9640007D65C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		92A7FC251F7F9787007D65C9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9271EE2C1F7EC676006E38FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE401F7EC676006E38FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE4B1F7EC676006E38FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE631F7EC676006E38FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9271EE261F7EC676006E38FB = {
+			isa = PBXGroup;
+			children = (
+				9271EE311F7EC676006E38FB /* HypixelStats */,
+				9271EE461F7EC676006E38FB /* HypixelStatsTests */,
+				9271EE511F7EC676006E38FB /* HypixelStatsUITests */,
+				9271EE5B1F7EC676006E38FB /* HypixelStats WatchKit App */,
+				9271EE6A1F7EC676006E38FB /* HypixelStats WatchKit Extension */,
+				9271EE301F7EC676006E38FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9271EE301F7EC676006E38FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9271EE2F1F7EC676006E38FB /* HypixelStats.app */,
+				9271EE431F7EC676006E38FB /* HypixelStatsTests.xctest */,
+				9271EE4E1F7EC676006E38FB /* HypixelStatsUITests.xctest */,
+				9271EE571F7EC676006E38FB /* HypixelStats WatchKit App.app */,
+				9271EE661F7EC676006E38FB /* HypixelStats WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9271EE311F7EC676006E38FB /* HypixelStats */ = {
+			isa = PBXGroup;
+			children = (
+				9271EE321F7EC676006E38FB /* AppDelegate.swift */,
+				9271EE341F7EC676006E38FB /* ViewController.swift */,
+				9271EE361F7EC676006E38FB /* Main.storyboard */,
+				9271EE391F7EC676006E38FB /* Assets.xcassets */,
+				9271EE3B1F7EC676006E38FB /* LaunchScreen.storyboard */,
+				9271EE3E1F7EC676006E38FB /* Info.plist */,
+				92A7FC231F7F9640007D65C9 /* HomeViewController.swift */,
+				92A7FC251F7F9787007D65C9 /* SettingsViewController.swift */,
+			);
+			path = HypixelStats;
+			sourceTree = "<group>";
+		};
+		9271EE461F7EC676006E38FB /* HypixelStatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9271EE471F7EC676006E38FB /* HypixelStatsTests.swift */,
+				9271EE491F7EC676006E38FB /* Info.plist */,
+			);
+			path = HypixelStatsTests;
+			sourceTree = "<group>";
+		};
+		9271EE511F7EC676006E38FB /* HypixelStatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9271EE521F7EC676006E38FB /* HypixelStatsUITests.swift */,
+				9271EE541F7EC676006E38FB /* Info.plist */,
+			);
+			path = HypixelStatsUITests;
+			sourceTree = "<group>";
+		};
+		9271EE5B1F7EC676006E38FB /* HypixelStats WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				9271EE5C1F7EC676006E38FB /* Interface.storyboard */,
+				9271EE5F1F7EC676006E38FB /* Assets.xcassets */,
+				9271EE611F7EC676006E38FB /* Info.plist */,
+			);
+			path = "HypixelStats WatchKit App";
+			sourceTree = "<group>";
+		};
+		9271EE6A1F7EC676006E38FB /* HypixelStats WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9271EE6B1F7EC676006E38FB /* InterfaceController.swift */,
+				9271EE6D1F7EC676006E38FB /* ExtensionDelegate.swift */,
+				9271EE6F1F7EC676006E38FB /* NotificationController.swift */,
+				9271EE711F7EC676006E38FB /* ComplicationController.swift */,
+				9271EE731F7EC676006E38FB /* Assets.xcassets */,
+				9271EE751F7EC676006E38FB /* Info.plist */,
+				9271EE761F7EC676006E38FB /* PushNotificationPayload.apns */,
+			);
+			path = "HypixelStats WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9271EE2E1F7EC676006E38FB /* HypixelStats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9271EE811F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStats" */;
+			buildPhases = (
+				9271EE2B1F7EC676006E38FB /* Sources */,
+				9271EE2C1F7EC676006E38FB /* Frameworks */,
+				9271EE2D1F7EC676006E38FB /* Resources */,
+				9271EE801F7EC676006E38FB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9271EE5A1F7EC676006E38FB /* PBXTargetDependency */,
+			);
+			name = HypixelStats;
+			productName = HypixelStats;
+			productReference = 9271EE2F1F7EC676006E38FB /* HypixelStats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9271EE421F7EC676006E38FB /* HypixelStatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9271EE841F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStatsTests" */;
+			buildPhases = (
+				9271EE3F1F7EC676006E38FB /* Sources */,
+				9271EE401F7EC676006E38FB /* Frameworks */,
+				9271EE411F7EC676006E38FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9271EE451F7EC676006E38FB /* PBXTargetDependency */,
+			);
+			name = HypixelStatsTests;
+			productName = HypixelStatsTests;
+			productReference = 9271EE431F7EC676006E38FB /* HypixelStatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9271EE4D1F7EC676006E38FB /* HypixelStatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9271EE871F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStatsUITests" */;
+			buildPhases = (
+				9271EE4A1F7EC676006E38FB /* Sources */,
+				9271EE4B1F7EC676006E38FB /* Frameworks */,
+				9271EE4C1F7EC676006E38FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9271EE501F7EC676006E38FB /* PBXTargetDependency */,
+			);
+			name = HypixelStatsUITests;
+			productName = HypixelStatsUITests;
+			productReference = 9271EE4E1F7EC676006E38FB /* HypixelStatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9271EE561F7EC676006E38FB /* HypixelStats WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9271EE7D1F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStats WatchKit App" */;
+			buildPhases = (
+				9271EE551F7EC676006E38FB /* Resources */,
+				9271EE7C1F7EC676006E38FB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9271EE691F7EC676006E38FB /* PBXTargetDependency */,
+			);
+			name = "HypixelStats WatchKit App";
+			productName = "HypixelStats WatchKit App";
+			productReference = 9271EE571F7EC676006E38FB /* HypixelStats WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		9271EE651F7EC676006E38FB /* HypixelStats WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9271EE791F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStats WatchKit Extension" */;
+			buildPhases = (
+				9271EE621F7EC676006E38FB /* Sources */,
+				9271EE631F7EC676006E38FB /* Frameworks */,
+				9271EE641F7EC676006E38FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HypixelStats WatchKit Extension";
+			productName = "HypixelStats WatchKit Extension";
+			productReference = 9271EE661F7EC676006E38FB /* HypixelStats WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9271EE271F7EC676006E38FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Connor Linfoot";
+				TargetAttributes = {
+					9271EE2E1F7EC676006E38FB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					9271EE421F7EC676006E38FB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9271EE2E1F7EC676006E38FB;
+					};
+					9271EE4D1F7EC676006E38FB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9271EE2E1F7EC676006E38FB;
+					};
+					9271EE561F7EC676006E38FB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					9271EE651F7EC676006E38FB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9271EE2A1F7EC676006E38FB /* Build configuration list for PBXProject "HypixelStats" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9271EE261F7EC676006E38FB;
+			productRefGroup = 9271EE301F7EC676006E38FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9271EE2E1F7EC676006E38FB /* HypixelStats */,
+				9271EE421F7EC676006E38FB /* HypixelStatsTests */,
+				9271EE4D1F7EC676006E38FB /* HypixelStatsUITests */,
+				9271EE561F7EC676006E38FB /* HypixelStats WatchKit App */,
+				9271EE651F7EC676006E38FB /* HypixelStats WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9271EE2D1F7EC676006E38FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9271EE3D1F7EC676006E38FB /* LaunchScreen.storyboard in Resources */,
+				9271EE3A1F7EC676006E38FB /* Assets.xcassets in Resources */,
+				9271EE381F7EC676006E38FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE411F7EC676006E38FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE4C1F7EC676006E38FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE551F7EC676006E38FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9271EE601F7EC676006E38FB /* Assets.xcassets in Resources */,
+				9271EE5E1F7EC676006E38FB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE641F7EC676006E38FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9271EE741F7EC676006E38FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9271EE2B1F7EC676006E38FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9271EE351F7EC676006E38FB /* ViewController.swift in Sources */,
+				9271EE331F7EC676006E38FB /* AppDelegate.swift in Sources */,
+				92A7FC241F7F9640007D65C9 /* HomeViewController.swift in Sources */,
+				92A7FC261F7F9787007D65C9 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE3F1F7EC676006E38FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9271EE481F7EC676006E38FB /* HypixelStatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE4A1F7EC676006E38FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9271EE531F7EC676006E38FB /* HypixelStatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9271EE621F7EC676006E38FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9271EE701F7EC676006E38FB /* NotificationController.swift in Sources */,
+				9271EE721F7EC676006E38FB /* ComplicationController.swift in Sources */,
+				9271EE6E1F7EC676006E38FB /* ExtensionDelegate.swift in Sources */,
+				9271EE6C1F7EC676006E38FB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9271EE451F7EC676006E38FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9271EE2E1F7EC676006E38FB /* HypixelStats */;
+			targetProxy = 9271EE441F7EC676006E38FB /* PBXContainerItemProxy */;
+		};
+		9271EE501F7EC676006E38FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9271EE2E1F7EC676006E38FB /* HypixelStats */;
+			targetProxy = 9271EE4F1F7EC676006E38FB /* PBXContainerItemProxy */;
+		};
+		9271EE5A1F7EC676006E38FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9271EE561F7EC676006E38FB /* HypixelStats WatchKit App */;
+			targetProxy = 9271EE591F7EC676006E38FB /* PBXContainerItemProxy */;
+		};
+		9271EE691F7EC676006E38FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9271EE651F7EC676006E38FB /* HypixelStats WatchKit Extension */;
+			targetProxy = 9271EE681F7EC676006E38FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9271EE361F7EC676006E38FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9271EE371F7EC676006E38FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9271EE3B1F7EC676006E38FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9271EE3C1F7EC676006E38FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9271EE5C1F7EC676006E38FB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9271EE5D1F7EC676006E38FB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9271EE771F7EC676006E38FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9271EE781F7EC676006E38FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9271EE7A1F7EC676006E38FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5FVU5F5CL;
+				INFOPLIST_FILE = "HypixelStats WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStats.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		9271EE7B1F7EC676006E38FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5FVU5F5CL;
+				INFOPLIST_FILE = "HypixelStats WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStats.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		9271EE7E1F7EC676006E38FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5FVU5F5CL;
+				IBSC_MODULE = HypixelStats_WatchKit_Extension;
+				INFOPLIST_FILE = "HypixelStats WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStats.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		9271EE7F1F7EC676006E38FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5FVU5F5CL;
+				IBSC_MODULE = HypixelStats_WatchKit_Extension;
+				INFOPLIST_FILE = "HypixelStats WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStats.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		9271EE821F7EC676006E38FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5FVU5F5CL;
+				INFOPLIST_FILE = HypixelStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9271EE831F7EC676006E38FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T5FVU5F5CL;
+				INFOPLIST_FILE = HypixelStats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9271EE851F7EC676006E38FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HypixelStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypixelStats.app/HypixelStats";
+			};
+			name = Debug;
+		};
+		9271EE861F7EC676006E38FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HypixelStatsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HypixelStats.app/HypixelStats";
+			};
+			name = Release;
+		};
+		9271EE881F7EC676006E38FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HypixelStatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HypixelStats;
+			};
+			name = Debug;
+		};
+		9271EE891F7EC676006E38FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HypixelStatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.connorlinfoot.HypixelStatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HypixelStats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9271EE2A1F7EC676006E38FB /* Build configuration list for PBXProject "HypixelStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9271EE771F7EC676006E38FB /* Debug */,
+				9271EE781F7EC676006E38FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9271EE791F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStats WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9271EE7A1F7EC676006E38FB /* Debug */,
+				9271EE7B1F7EC676006E38FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9271EE7D1F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStats WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9271EE7E1F7EC676006E38FB /* Debug */,
+				9271EE7F1F7EC676006E38FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9271EE811F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9271EE821F7EC676006E38FB /* Debug */,
+				9271EE831F7EC676006E38FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9271EE841F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9271EE851F7EC676006E38FB /* Debug */,
+				9271EE861F7EC676006E38FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9271EE871F7EC676006E38FB /* Build configuration list for PBXNativeTarget "HypixelStatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9271EE881F7EC676006E38FB /* Debug */,
+				9271EE891F7EC676006E38FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9271EE271F7EC676006E38FB /* Project object */;
+}
