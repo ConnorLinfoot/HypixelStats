@@ -4,7 +4,7 @@ This is a small app  for the Apple Watch that I made to display the [Hypixel Net
 
 ## Installing the app
 
-To install this you'll need Xcode on macOS and at least watchOS 4 (may work with 3 but not tested). Anyone can install this for free for 7 days at a time as long as you have an Apple account. You'll also need to replace "_REPLACE_WITH_KEY_" with your Hypixel API key for the app to work.
+To install this you'll need Xcode on macOS and at least watchOS 4 (may work with 3 but not tested). Anyone can install this for free for 7 days at a time as long as you have an Apple account. You'll also need to replace "\_REPLACE_WITH_KEY\_" with your Hypixel API key for the app to work.
 
 ## Support
 
