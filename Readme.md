@@ -8,7 +8,7 @@ To install this you'll need Xcode on macOS and at least watchOS 4 (may work with
 
 ## Support
 
-If you need any help feel free to open an issue or shoot be a tweet [@ConnorLinfoot](https://twitter.com/ConnorLinfoot). But no promises that I'll be able to help you with any issues.
+If you need any help feel free to open an issue or shoot me a tweet [@ConnorLinfoot](https://twitter.com/ConnorLinfoot). But no promises that I'll be able to help you with any issues.
 
 ## Contributing
 
